@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "statistical-analyst-products"
+version = "0.1.0"
+description = ""
+authors = ["bru-cab <cabrerabr1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
